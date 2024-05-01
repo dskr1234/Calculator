@@ -64,6 +64,7 @@ function getAns(){
     if(str.length >= 3){
         var ans = eval(str);
         document.getElementById('result').value=ans;
+        str=ans;
     }else{
         document.getElementById('result').value="Invalid Expression";
     }
