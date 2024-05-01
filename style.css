@@ -1,0 +1,42 @@
+.outline-cal{
+    height: 80vh;
+    width: 50vw;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+.cal-head{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+
+    
+}
+.con-screen{
+    height: 10%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: white;
+    
+    color: black;
+    text-align: center;
+}
+.btn-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:20px;
+}
+.button-style{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+
+}
